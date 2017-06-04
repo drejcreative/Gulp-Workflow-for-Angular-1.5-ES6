@@ -1,4 +1,4 @@
-# Gulp Workflow for React
+# Gulp Workflow for AngularJs 1.5 with ES6
 ![Gulp Workflow](gulp.jpg)
 
 This is Gulp workflow created for easier work with AngularJs 1.5 ES6/ES2015 version. It use Babel and browserify for covering imports and JSX and converting them to one js file. Angular html templates are also covered with this. This gulp workflow also cover converting scss to css and optimizing it with autoprefixer, concat to one file and minifying. BrowserSync is integrated so we have live server and live preview with browser reload on file changes.
@@ -32,4 +32,4 @@ Run > `npm install` to install the project dependencies
 Run > `bower install` to install the bower dependencies if you have it
 
 Run the Gulp command > `gulp` to start a server  
-Run the > `gulp build` to create a production ready code in dist folde
+Run the > `gulp build` to create a production ready code in `dist` folder
